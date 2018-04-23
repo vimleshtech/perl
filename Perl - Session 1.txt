@@ -1,0 +1,212 @@
+guptaamitdel@gmail.com
+Date: 04/19/2018
+--------------------------
+
+Scope of Perl/Why Perl?
+=====================
+Fundamentals of Perl
+====================
+Perl Environment Setup
+====================
+Hello Program
+===================
+Variable  and Data type
+====================
+Condition 
+====================
+Operations : hands on 
+
+
+Scope of Per/Why Perl?
+==============================
+Application:
+		-Web Development
+		-Automation 		**	
+		-Security 		**
+		-Manage : IT Infra 	**
+
+
+Fundamentals of Perl
+====================
+-perl is scripting language 
+-perl is interpreter based programing language(line by line exectution)
+-perl is open sources 
+-perl is plateform independent (mac, windows, linux etc)
+-very is to learn, understand , and implement 
+-perl supports to subroutine  (object)
+	example:
+		sub hi()
+			....
+			....
+			....
+		sub add()
+			.....
+			......
+
+
+
+
+		add()
+		hi()
+		add()
+
+
+Perl Environment Setup
+====================
+	www.perl.org			- setup 
+	www.docs.perl.org 		- documentation 
+
+	version : Perl 5
+
+
+
+Hello Program
+===================
+-perl does allocate memory automatically
+
+-syntax : literal 
+
+ $var = 1;		# integer  /numper
+ $a = "hi";		# str / text / alpha numeric
+	
+ $a;
+	
+
+$1a	= 10;  #incorrect
+$a b	= 10;  #incorrect
+$a+b	= 10;  #incorrect
+
+$a	= 10;  #correct
+$a1	= 10;  #correct
+$ab	= 10;  #correct
+$a_b	= 10;  #correct
+
+
+-operator 
+Arithmetic : 	
+		+ 
+		- 
+		* 
+		/ 
+		%
+		example:
+			2+3*4 = 14
+			(2+3)*4=20
+			85/10 =  8.5 
+			85%10  =  5 
+Condition  : 
+		> : gt 
+		>=  : ge
+		<   : lt
+		<=  : le 
+		==  : eq
+		!=   : ne 
+
+Logical: 
+		&&  - and 
+		||  - or 
+
+
+
+
+
+Conditional:  is decision making statement 
+	-if 
+		- if condition 
+		- if else condition 
+		- if else if else condition 
+		- nested if else : if inside if condition 
+	
+	-switch case 
+
+
+	- if condition 
+		if a>b
+			.... # true 
+		
+	- if else condition 
+		if a>b 
+			....
+		
+		else 
+			....
+	- if else if else condition 
+		if a>b
+			....
+		else if b>c
+			....
+		else 
+			....
+		
+	-nested :
+		if .....
+			if  # inner if or nested if 
+				....
+			
+			else 
+				...
+
+		else 
+			....
+
+
+
+*** perl file can be save with .pl extension 
+** to run / execute 
+		$perl filename.pl
+		$perl PATH/filename.pl
+
+** linux 
+		chmod 775 filenamle.pl
+			ugo 
+			4- read
+			2 -write
+			1- execute 
+		
+
+
+	
+	
+** mode
+		- interactive mode 
+			$perl  -e <perl code>           # Unix/Linux 
+
+
+		-scripting   : vi, pico, gedit , nano 
+			myfile.pl
+			.....
+			....
+		
+		$chmod  775 myfile.pl
+
+		$perl myfile.pl	
+
+
+
+data type 
+	-Scalar  : single value 
+			$a =1;
+			$b ="raman sinha";
+
+	-Arrays	: collection of data or values
+		$a = [11,222,3,22,3333];
+	
+	-Hashes:  key=value 
+		$emp = ["a"=>25,"b"=>65]			
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
