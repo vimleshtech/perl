@@ -1,0 +1,39 @@
+Files and folder
+====================
+
+folder
+----------------
+mkdir
+cd
+mv
+cp 
+
+
+Files
+-------
+open(path ">>") ceate new file copy 
+open(path ">")  new file 
+open(path "+<<")  : append 
+
+
+$variable  
+$loop     
+$condition : if 
+
+
+how to find the file
+----------------------
+dir/.*   : all extens files
+dir/.c   : all c files
+dir/.sh   : all c files
+dir/.txt   : all c files
+dir/data.*   : all c files
+dir/a*data.*   : 
+dir/*bd_x*.*   : all c files
+
+
+
+
+
+
+
