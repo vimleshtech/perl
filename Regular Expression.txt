@@ -1,0 +1,75 @@
+﻿A regular expression is a string of characters that defines the pattern or patterns you are viewing. The syntax of regular expressions in Perl is very similar to what you will find within other regular expression.supporting programs, such as sed, grep, and awk.
+
+The basic method for applying a regular expression is to use the pattern binding operators =~ and !~. The first operator is a test and assignment operator.
+
+There are three regular expression operators within Perl.
+Match Regular Expression - m//
+Substitute Regular Expression - s///
+Transliterate Regular Expression - tr///
+
+The forward slashes in each case act as delimiters for the regular expression (regex) that you are specifying. If you are comfortable with any other delimiter, then you can use in place of forward slash.
+
+---------------------
+The Match Operator
+
+#!/usr/bin/perl
+
+$bar = "This is foo and again foo";
+if ($bar =~ /foo/) {
+   print "First time is matching\n";
+} else {
+   print "First time is not matching\n";
+}
+
+$bar = "foo";
+if ($bar =~ /foo/) {
+   print "Second time is matching\n";
+} else {
+   print "Second time is not matching\n";
+}
+
+
+
+
+
+
+#!/usr/bin/perl
+
+$bar = "This is foo and again foo";
+if ($bar =~ m[foo]) {
+   print "First time is matching\n";
+} else {
+   print "First time is not matching\n";
+}
+
+$bar = "foo";
+if ($bar =~ m{foo}) {
+   print "Second time is matching\n";
+} else {
+   print "Second time is not matching\n";
+}
+
+
+
+
+
+Matching Only Once
+
+There is also a simpler version of the match operator - the ?PATTERN? operator. This is basically identical to the m// operator except that it only matches once within the string you are searching between each call to reset.
+
+For example, you can use this to get the first and last elements within a list −
+
+
+
+
+#!/usr/bin/perl
+
+@list = qw/food foosball subeo footnote terfoot canic footbrdige/;
+
+foreach (@list) {
+   $first = $1 if /(foo.*?)/;
+   $last = $1 if /(foo.*)/;
+}
+print "First: $first, Last: $last\n";
+
+
