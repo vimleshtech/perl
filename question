@@ -1,0 +1,27 @@
+user1,pass1,group1,admin
+user2,pass2,group1,admin
+user3
+user4
+
+=================================
+1. for insatall
+	enter package name which u want to install
+	java-default
+
+2. update
+	enter package name which u want to install	
+3. remove/untill
+	enter package name which u want to install
+4. reboot services
+	enter package name which u want to install
+
+
+service restart apache2
+service stop apache2
+service start apache2
+===================================
+
+
+
+
+
